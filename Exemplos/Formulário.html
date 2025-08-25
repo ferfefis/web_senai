@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+<h1>Formulário</h1>
+
+<form>
+    <label for="input_nome"><strong>Nome:</strong></label><br>
+    <input id="input_nome" type="text" placeholder="Digite aqui seu nome" required><br><br>
+
+    <label for="input_email"><strong>E-mail:</strong></label><br>
+    <input id="input_email" type="email" placeholder="fer.frts@icloud.com" required><br><br>
+
+    <label for="input_senha"><strong>Senha:</strong>:</label><br>
+    <input id="input_senha" type="password" required>
+    <br><br>
+
+    <label for="text_descricao"><strong>Descrição:</strong></label><br>
+    <textarea id="text_descricao" cols="50" rows="10"></textarea>
+    <br><br>
+
+    <label for="radio_m"><strong>Gênero</strong></label><br>
+    <label for="radio_m">Masculino</label>
+    <input id="radio_m" type="radio" value="Masculino" name="genero">
+    <label for="radio_f">Feminino</label>
+    <input id="radio_f" type="radio" value="Feminino" name="genero">
+    <br><br>
+
+    <label for="menu_cidade">Cidade</label>
+    <select id="menu_cidade">
+        <optgroup label="Interior">
+            <option>Guararapes</option>
+            <option>Araçatuba</option>
+            <option>Birigui</option>
+            <option>Rubiácea</option>
+        </optgroup>
+       <optgroup label="Capitais">
+           <option>São Paulo</option>
+           <option>Rio de Janeiro</option>
+           <option>Brasília</option>
+       </optgroup>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Salvar</button>
+    <button type="reset">Limpar</button>
+</form>
+</body>
+</html>
