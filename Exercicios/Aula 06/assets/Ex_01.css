@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+
+p {
+    background-color: red;
+    color: white;
+    font-size: 36px;
+    font-family: arial;
+}

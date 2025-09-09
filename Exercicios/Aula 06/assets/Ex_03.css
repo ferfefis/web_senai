@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+}
+
+.verde {
+    color:green;
+    background-color: gray;
+}
+
+.verde:hover {
+    color:black;
+    background-color: white;
+    text-align: left;
+}
+.vermelho {
+    color:red;
+    text-align: center;
+    background-color: gray;
+}
+
+.vermelho:hover {
+    color: black;
+    text-align: left;
+    background-color: white;
+}
+
+.azul {
+    color:blue;
+    text-align: right;
+    background-color: gray;
+}
+
+.azul:hover{
+    color:black;
+    text-align: left;
+    background-color: white;
+}
+
+.roxo {
+    color:purple;
+    text-align: center;
+    background-color: gray;
+}
+
+.roxo:hover {
+    color:black;
+    text-align: left;
+    background-color: white;
+}
+
+.amarelo {
+    color: yellow;
+    background-color: gray;
+}
+
+.amarelo:hover {
+    color:black;
+    background-color: white;
+    text-align: left;
+}
+
+.rosa {
+    color: pink;
+    text-align: center;
+    background-color: gray;
+}
+
+.rosa:hover {
+    color:black;
+    text-align: left;
+    background-color: white;
+}
+
+body {
+    background-color: khaki;
+}
+
+ul {
+    background-color: white;
+}
